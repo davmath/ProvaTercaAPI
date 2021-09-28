@@ -1,0 +1,15 @@
+POST https://localhost:5001/api/automovel/create
+Content-Type: application/json
+
+{
+    "Marca" : "Renault",
+    "Modelo" : "Logan",
+    "Placa" : "ABC1234",
+    "Cor" : "Preto"
+
+}
+
+### Listar todos os automoveis
+GET https://localhost:5001/api/automovel/list
+
+
